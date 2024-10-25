@@ -6,6 +6,6 @@ for i in range(len(numbers)):
         numbers[i] = 0;
         index_none = i
         break
-average = sum(numbers)/len(numbers)
+average = sum(numbers) / len(numbers)
 numbers[index_none] = average
 print("Измененный список:", numbers)
